@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Elipse",
+    "ID": "elipse-1",
+    "RadioA": 2.5,
+    "RadioB": 1.8
+  },
+  {
+    "type": "Rectangulo",
+    "ID": "rectangulo-1",
+    "Base": 4.0,
+    "Altura": 3.0
+  },
+  {
+    "type": "Triangulo",
+    "ID": "triangulo-1",
+    "Base": 5.0,
+    "Altura": 2.5
+  }
+]
