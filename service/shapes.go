@@ -10,7 +10,7 @@ import (
 var figuras = make(map[string]domain.Figura)
 
 func CargarFigurasDesdeArchivo(filename string) {
-	// Leer el archivo JSON
+
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		fmt.Println("Error al leer el archivo:", err)
@@ -24,7 +24,6 @@ func CargarFigurasDesdeArchivo(filename string) {
 		return
 	}
 
-	// Llenar el mapa con las figuras deserializadas
 	for _, registro := range registros {
 		var figura domain.Figura
 
